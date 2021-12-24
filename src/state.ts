@@ -204,6 +204,7 @@ export function useApp() {
   })
 
   const authenticate = useCallback((seed: Uint8Array) => {
+    console.log('**Authenticate, useCallback');
     dispatch({ type: 'auth', status: 'loading' })
     getIDX(seed).then(
       (init) => {

@@ -31,8 +31,7 @@ export async function getIDX(seed: Uint8Array): Promise<IDXInit> {
   const provider = new Ed25519Provider(seed)
   const did = new DID({ provider, resolver })
   await ceramic.setDID(did)
-  await ceramic.did
-  // await ceramic.did.authenticate(), previously
+  await ceramic.did?.authenticate()
 
   // Create the IDX instance with the definitions aliases from the config
   const idx = new IDX({ceramic, aliases: config.definitions})
