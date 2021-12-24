@@ -1,0 +1,9 @@
+{
+  "definitions": {
+    "notes": "kjzl6cwe1jw14abyul09e7c6woy4prx2eba8z8mgsmazbricbr00l2f6x0vkx8o"
+  },
+  "schemas": {
+    "Note": "ceramic://k3y52l7qbv1frxtfx9nlup1x4mofdbd06l648n6cv1w34f0a1v790ar84tr07ek8w",
+    "NotesList": "ceramic://k3y52l7qbv1frxr375y8n5tmqr8swkavpsu8r6d2vovri6kpeoz0xo0yx83haby80"
+  }
+}
